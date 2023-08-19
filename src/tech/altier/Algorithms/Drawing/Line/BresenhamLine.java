@@ -10,7 +10,7 @@ import tech.altier.Algorithms.Drawing.lib.Point;
  */
 public class BresenhamLine {    // TODO bug
     /**
-     * 
+     *  This method calculates the points in a line using the Bresenham Line algorithm
      * @param x0
      * @param y0
      * @param x1
