@@ -11,7 +11,7 @@ import tech.altier.Algorithms.Drawing.lib.Point;
 public class BresenhamLine {    // TODO bug
     /**
      *  This method calculates the points in a line using the Bresenham Line algorithm
-     * @param x0
+     * @param x0   The x coordinate of the first point
      * @param y0
      * @param x1
      * @param y1
