@@ -3,9 +3,8 @@ package tech.altier.Algorithms.Drawing.lib;
 public class Points {
     /**
      * This method prints the points in the array
-     * @param points
+     * @param points    The array of points to be printed
      * @see Point
-     * @version 1.0
      */
     public static void printPoints(Point[] points) {
         for (Point point : points) {
