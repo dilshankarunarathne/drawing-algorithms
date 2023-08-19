@@ -6,6 +6,6 @@ import static tech.altier.Algorithms.Drawing.lib.Points.printPoints;
 
 public class Main {
     public static void main(String[] args) {
-        printPoints(bresenhamLine(4, 7, 4, 7));
+        printPoints(bresenhamLine(4, 7, 14, 13));
     }
 }
