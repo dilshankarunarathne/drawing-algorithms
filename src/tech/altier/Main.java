@@ -1,6 +1,6 @@
 package tech.altier;
 
-import static tech.altier.Algorithms.Drawing.DDA.dda;
+import static tech.altier.Algorithms.Drawing.Line.DDA.dda;
 import static tech.altier.Algorithms.Drawing.lib.Points.printPoints;
 
 public class Main {
