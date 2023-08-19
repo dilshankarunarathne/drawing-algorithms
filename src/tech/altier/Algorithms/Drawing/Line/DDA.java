@@ -1,4 +1,4 @@
-package tech.altier.Algorithms.Drawing;
+package tech.altier.Algorithms.Drawing.Line;
 
 import tech.altier.Algorithms.Drawing.lib.Point;
 
