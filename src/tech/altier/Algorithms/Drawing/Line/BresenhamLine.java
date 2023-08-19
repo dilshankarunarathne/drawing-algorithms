@@ -9,7 +9,14 @@ import tech.altier.Algorithms.Drawing.lib.Point;
  *  @version 1.0
  */
 public class BresenhamLine {    // TODO bug
-    
+    /**
+     * 
+     * @param x0
+     * @param y0
+     * @param x1
+     * @param y1
+     * @return
+     */
     public static Point [] bresenhamLine(int x0, int y0, int x1, int y1) {
         // Calculate the difference between the coordinates
         int dx = x1 - x0;
