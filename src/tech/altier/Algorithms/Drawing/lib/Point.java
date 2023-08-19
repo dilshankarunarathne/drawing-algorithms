@@ -49,12 +49,4 @@ public class Point {
     public String toString() {
         return "Point (" + x + ", " + y + ")";
     }
-
-    /**
-     *  This method is used to print the coordinates of the points to the terminal
-     *  @see Point
-     */
-    public static void printPoints () {
-
-    }
 }
