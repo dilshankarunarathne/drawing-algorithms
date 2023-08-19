@@ -11,7 +11,7 @@ import tech.altier.Algorithms.Drawing.lib.Point;
 public class MidPointLine {
     /**
      *
-     * @param x0
+     * @param x0    The x coordinate of the start point
      * @param y0    The y coordinate of the start point
      * @param x1    The x coordinate of the end point
      * @param y1    The y coordinate of the end point
