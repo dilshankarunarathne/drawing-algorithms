@@ -1,6 +1,6 @@
 package tech.altier.Algorithms.Drawing.Line;
 
-
+import tech.altier.Algorithms.Drawing.lib.Point;
 
 /**
  *  This class represents the Mid-Point Line algorithm
@@ -9,5 +9,5 @@ package tech.altier.Algorithms.Drawing.Line;
  *  @version 1.0
  */
 public class MidPointLine {
-    public static Point []
+    public static Point[]
 }
