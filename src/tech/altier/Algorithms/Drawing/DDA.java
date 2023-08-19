@@ -2,6 +2,10 @@ package tech.altier.Algorithms.Drawing;
 
 import tech.altier.Algorithms.Drawing.lib.Point;
 
+/**
+ * This class represents the DDA algorithm
+ * 
+ */
 public class DDA {
     /**
      * This method calculates the points in a line using the DDA algorithm
