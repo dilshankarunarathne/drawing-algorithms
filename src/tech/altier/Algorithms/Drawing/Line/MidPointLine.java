@@ -12,7 +12,7 @@ public class MidPointLine {
     /**
      *
      * @param x0
-     * @param y0
+     * @param y0    The y coordinate of the start point
      * @param x1    The x coordinate of the end point
      * @param y1    The y coordinate of the end point
      * @return  An array of points in the circle
