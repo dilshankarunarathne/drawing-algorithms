@@ -10,7 +10,7 @@ import tech.altier.Algorithms.Drawing.lib.Point;
  */
 public class MidPointLine {
     /**
-     *  This method returns an array of points in the line
+     *  This method returns an array of points in the line using the Mid-Point Line algorithm
      * @param x0    The x coordinate of the start point
      * @param y0    The y coordinate of the start point
      * @param x1    The x coordinate of the end point
