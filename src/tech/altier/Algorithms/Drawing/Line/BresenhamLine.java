@@ -12,7 +12,7 @@ public class BresenhamLine {    // TODO bug
     /**
      *  This method calculates the points in a line using the Bresenham Line algorithm
      * @param x0   The x coordinate of the first point
-     * @param y0
+     * @param y0    The y coordinate of the first point
      * @param x1
      * @param y1
      * @return
