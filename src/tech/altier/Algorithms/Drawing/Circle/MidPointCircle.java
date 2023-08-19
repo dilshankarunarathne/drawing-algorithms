@@ -15,7 +15,7 @@ public class MidPointCircle {   // TODO bug
      * @param y0    The y coordinate of the center of the circle
      * @param r     The radius of the circle
      * @return      An array of points in the circle
-     * @see tech.altier.Algorithms.Drawing.lib.Point
+     * @see         tech.altier.Algorithms.Drawing.lib.Point
      */
     public static Point[] midPointCircle(int x0, int y0, int r) {
         // Calculate the first point
