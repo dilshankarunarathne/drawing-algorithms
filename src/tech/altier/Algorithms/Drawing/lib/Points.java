@@ -1,5 +1,9 @@
 package tech.altier.Algorithms.Drawing.lib;
 
 public class Points {
-    public 
+    public static void printPoints(Point[] points) {
+        for (Point point : points) {
+            System.out.println(point);
+        }
+    }
 }
