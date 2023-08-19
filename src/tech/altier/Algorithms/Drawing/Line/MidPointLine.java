@@ -15,7 +15,7 @@ public class MidPointLine {
      *  @param y0    The y coordinate of the start point
      *  @param x1    The x coordinate of the end point
      *  @param y1    The y coordinate of the end point
-     *  @return     An array of points in the circle
+     *  @return      An array of points in the circle
      */
     public static Point[] midPointLine(int x0, int y0, int x1, int y1) {
         // Calculate the difference between the coordinates
