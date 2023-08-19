@@ -2,11 +2,8 @@ package tech.altier.Algorithms.Drawing.lib;
 
 // This class represents the x, y coordinates of a point
 public class Point {
-    // This is the x coordinate of the point
     private int x;
-    // This is the y coordinate of the point
     private int y;
-    // This is a given identifier for the point
     private String id;
 
     // This is the constructor for the Point class
