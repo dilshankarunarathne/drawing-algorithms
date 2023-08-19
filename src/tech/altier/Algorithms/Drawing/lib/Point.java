@@ -1,6 +1,8 @@
 package tech.altier.Algorithms.Drawing.lib;
 
-// This class represents the x, y coordinates of a point
+/**
+ * This class represents the x, y coordinates of a point
+ */
 public class Point {
     private int x;
     private int y;
