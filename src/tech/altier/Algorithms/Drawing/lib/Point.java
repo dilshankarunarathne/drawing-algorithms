@@ -52,9 +52,6 @@ public class Point {
 
     /**
      *  This method is used to print the coordinates of the points to the terminal
-     *  @param points The points to be printed
-     *                This is a variable length argument
-     *                This can be a single point or multiple points]
      *  @see Point
      */
     public static void printPoints () {
