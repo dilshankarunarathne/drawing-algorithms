@@ -47,6 +47,6 @@ public class Point {
 
     @Override
     public String toString() {
-        return (id.isEmpty() ? "Point (" + x + ", " + y + ")" : "Point " + id + " (" + x + ", " + y + ")");
+        return (id == null ? "Point (" + x + ", " + y + ")" : "Point " + id + " (" + x + ", " + y + ")");
     }
 }
