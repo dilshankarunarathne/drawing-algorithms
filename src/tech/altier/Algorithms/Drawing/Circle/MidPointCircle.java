@@ -1,5 +1,7 @@
 package tech.altier.Algorithms.Drawing.Circle;
 
+import tech.altier.Algorithms.Drawing.lib.Point;
+
 /**
  * This class represents the Mid-Point Circle algorithm
  * @author Dilshan M. Karunarathne
@@ -15,7 +17,7 @@ public class MidPointCircle {
      * @return      An array of points in the circle
      * @see tech.altier.Algorithms.Drawing.lib.Point
      */
-    public static tech.altier.Algorithms.Drawing.lib.Point[] midPointCircle(int x0, int y0, int r) {
+    public static Point[] midPointCircle(int x0, int y0, int r) {
         // Calculate the first point
         int x = 0;
         int y = r;
