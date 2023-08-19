@@ -57,7 +57,7 @@ public class Point {
      *                This can be a single point or multiple points]
      *  @see Point
      */
-    public static void printPoints (int ... points) {
+    public static void printPoints () {
 
     }
 }
