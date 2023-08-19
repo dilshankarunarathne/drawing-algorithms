@@ -3,7 +3,15 @@ package tech.altier.Algorithms.Drawing;
 import tech.altier.Algorithms.Drawing.lib.Point;
 
 public class DDA {
-    // This algorithm is used to draw a line between two points using the DDA algorithm
+    /**
+     * This method calculates the points in a line using the DDA algorithm
+     * @see Point
+     * @param x1    The x coordinate of the first point
+     * @param y1    The y coordinate of the first point
+     * @param x2
+     * @param y2
+     * @return
+     */
     public static Point[] dda(int x1, int y1, int x2, int y2) {
         // Calculate the difference between the two points
         int dx = x2 - x1;
