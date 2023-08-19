@@ -2,7 +2,8 @@ package tech.altier.Algorithms.Drawing.lib;
 
 /**
  *  This class represents the x, y coordinates of a point
- *  we can give an identifier for a point 
+ *  we can give an identifier for a point
+ *  @version 1.0
  */
 public class Point {
     private int x;
