@@ -50,7 +50,10 @@ public class Point {
         return "Point (" + x + ", " + y + ")";
     }
 
-    // This method is used to print the coordinates of the points to the terminal
+    /**
+     *  This method is used to print the coordinates of the points to the terminal
+     *  
+     */
     public static void printPoints () {
 
     }
