@@ -4,7 +4,9 @@ import tech.altier.Algorithms.Drawing.lib.Point;
 
 /**
  * This class represents the DDA algorithm
- * 
+ * @version 1.0
+ * @see Point
+ * @author Dilshan M. Karunarathne
  */
 public class DDA {
     /**
