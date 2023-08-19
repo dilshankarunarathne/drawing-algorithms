@@ -14,7 +14,7 @@ public class BresenhamLine {    // TODO bug
      * @param x0   The x coordinate of the first point
      * @param y0    The y coordinate of the first point
      * @param x1   The x coordinate of the second point
-     * @param y1
+     * @param y1   The y coordinate of the second point
      * @return
      */
     public static Point [] bresenhamLine(int x0, int y0, int x1, int y1) {
