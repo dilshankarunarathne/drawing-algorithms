@@ -6,13 +6,11 @@ public class Point {
     private int y;
     private String id;
 
-    // This is the constructor for the Point class
     public Point (int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    // This is the constructor for the Point class
     public Point (int x, int y, String id) {
         this (x, y);
         this.id = id;
