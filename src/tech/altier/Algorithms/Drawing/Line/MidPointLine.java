@@ -3,7 +3,8 @@ package tech.altier.Algorithms.Drawing.Line;
 /**
  *  This class represents the Mid-Point Line algorithm
  *  @see tech.altier.Algorithms.Drawing.lib.Point
- * @author Dilshan M. Karunarathne 
+ *  @author Dilshan M. Karunarathne
+ *  
  */
 public class MidPointLine {
 }
