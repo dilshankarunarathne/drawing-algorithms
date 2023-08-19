@@ -8,7 +8,7 @@ import tech.altier.Algorithms.Drawing.lib.Point;
  * @version 1.0
  * @see tech.altier.Algorithms.Drawing.lib.Point
  */
-public class MidPointCircle {
+public class MidPointCircle {   // TODO bug
     /**
      * This method calculates the points in a circle using the Mid-Point Circle algorithm
      * @param x0    The x coordinate of the center of the circle
