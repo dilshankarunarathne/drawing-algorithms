@@ -5,12 +5,12 @@ import tech.altier.Algorithms.Drawing.lib.Point;
 public class DDA {
     /**
      * This method calculates the points in a line using the DDA algorithm
-     * @see Point
      * @param x1    The x coordinate of the first point
      * @param y1    The y coordinate of the first point
      * @param x2    The x coordinate of the second point
      * @param y2    The y coordinate of the second point
      * @return    An array of points in the line
+     * @see Point
      */
     public static Point[] dda(int x1, int y1, int x2, int y2) {
         // Calculate the difference between the two points
