@@ -15,6 +15,12 @@ public class Point {
         this.y = y;
     }
 
+    // This is the constructor for the Point class
+    public Point (int x, int y, String id) {
+        this (x, y);
+        this.id = id;
+    }
+
     public int getX() {
         return x;
     }
