@@ -10,12 +10,12 @@ import tech.altier.Algorithms.Drawing.lib.Point;
  */
 public class MidPointLine {
     /**
-     * 
+     *
      * @param x0
      * @param y0
-     * @param x1
-     * @param y1
-     * @return
+     * @param x1    The x coordinate of the end point
+     * @param y1    The y coordinate of the end point
+     * @return  An array of points in the circle
      */
     public static Point[] midPointLine(int x0, int y0, int x1, int y1) {
         // Calculate the difference between the coordinates
