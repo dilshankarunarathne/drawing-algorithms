@@ -6,4 +6,8 @@ public class Points {
             System.out.println(point);
         }
     }
+
+    public static void printPoints(Point ... points) {
+        
+    }
 }
