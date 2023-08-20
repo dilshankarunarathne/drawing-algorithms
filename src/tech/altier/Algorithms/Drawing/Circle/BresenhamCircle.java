@@ -59,4 +59,6 @@ public class BresenhamCircle {
         // Return the array of points
         return points;
     }
+
+    private static 
 }
