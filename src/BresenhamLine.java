@@ -13,12 +13,11 @@ public class BresenhamLine {
             int incrE = 2 * dy;
             int incrNE = 2 * (dy - dx);
 
-            int x = x0;
             int y = y0;
 
-            System.out.println("(" + x + ", " + y + ")");
+            System.out.println("(" + x0 + ", " + y0 + ")");
 
-            while (x < x1) {
+            for (int x=x0; x<=x1; x++) {
                 if (d > 0) {
                     y++;
                     d += incrNE;
