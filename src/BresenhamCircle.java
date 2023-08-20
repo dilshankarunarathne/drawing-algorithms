@@ -7,7 +7,6 @@ public class BresenhamCircle {
         int x = 0;
         int y = r;
 
-        // Calculate the initial value of the decision parameter
         int d = 3 - (2 * r);
 
         // Set the first point
