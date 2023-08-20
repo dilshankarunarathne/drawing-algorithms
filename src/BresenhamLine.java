@@ -7,6 +7,11 @@ public class BresenhamLine {
         int dx = (x1 >= x0) ? (x1 - x0) : (x0 - x1);
         int dy = (y1 >= y0) ? (y1 - y0) : (y0 - y1);
 
+        int d = 2 * dy - dx;
+
+        int incrE = 2 * dy;
+        int incrNE = 2 * (dy - dx);
+
         if (x1 >= x0 && y1 >= y0) { // positive slope and x1 >= x0
             int dx = x1 - x0;
             int dy = y1 - y0;
