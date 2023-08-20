@@ -29,7 +29,7 @@ public class BresenhamCircle {
         int d = 3 - (2 * r);
 
         // Set the first point
-        points[0] = new tech.altier.Algorithms.Drawing.lib.Point(x + x0, y + y0);
+        points[0] = new Point(x + x0, y + y0);
 
         // Loop through the points
         int i = 1;
@@ -50,7 +50,7 @@ public class BresenhamCircle {
             x++;
 
             // Calculate the next point
-            points[i++] = new tech.altier.Algorithms.Drawing.lib.Point(x + x0, y + y0);
+            points[i++] = new Point(x + x0, y + y0);
         }
 
         // Return the array of points
