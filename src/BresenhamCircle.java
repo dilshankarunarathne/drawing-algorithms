@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class BresenhamCircle {
     public static void main(String[] args) {
-        bresenhamCircle(4, 7, 4);
+        Scanner scanner = new Scanner(System.in);
     }
 
     public static void bresenhamCircle(int x0, int y0, int r) {
