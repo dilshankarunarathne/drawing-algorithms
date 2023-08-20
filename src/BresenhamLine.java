@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class BresenhamLine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println();
     }
 
     public static void bresenhamLine(int x0, int y0, int x1, int y1) {
