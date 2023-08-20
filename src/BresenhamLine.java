@@ -1,6 +1,6 @@
 public class BresenhamLine {
     public static void main(String[] args) {
-        bresenhamLine(1, 10, 12, 5);
+//        bresenhamLine(1, 10, 12, 5);
     }
 
     public static void bresenhamLine(int x0, int y0, int x1, int y1) {
@@ -27,7 +27,7 @@ public class BresenhamLine {
 
                 System.out.println("(" + x + ", " + y + ")");
             }
-        } else if (x1 >= x0 && y1 < y0) { // negative slope and x1 >= x0
+        } else if (x1 >= x0) { // negative slope and x1 >= x0
             int y = y0;
 
             System.out.println("(" + x0 + ", " + y0 + ")");
