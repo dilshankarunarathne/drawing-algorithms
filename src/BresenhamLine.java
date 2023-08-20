@@ -10,6 +10,8 @@ public class BresenhamLine {
         System.out.print("Enter x1: ");
         int x1 = scanner.nextInt();
         System.out.print("Enter y1: ");
+        int y1 = scanner.nextInt();
+        
     }
 
     public static void bresenhamLine(int x0, int y0, int x1, int y1) {
