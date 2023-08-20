@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class BresenhamCircle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter x0: ");
     }
 
     public static void bresenhamCircle(int x0, int y0, int r) {
