@@ -58,14 +58,6 @@ public class BresenhamLine {
                 System.out.println("(" + x + ", " + y + ")");
             }
         } else if (x1 < x0 && y1 < y0) { // negative slope and x1 < x0
-            int dx = x0 - x1;
-            int dy = y0 - y1;
-
-            int d = 2 * dy - dx;
-
-            int incrE = 2 * dy;
-            int incrNE = 2 * (dy - dx);
-
             int y = y0;
 
             System.out.println("(" + x0 + ", " + y0 + ")");
