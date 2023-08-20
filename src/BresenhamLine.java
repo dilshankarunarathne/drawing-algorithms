@@ -4,6 +4,9 @@ public class BresenhamLine {
     }
 
     public static void bresenhamLine(int x0, int y0, int x1, int y1) {
+        int dx = (x1 >= x0) ? (x1 - x0) : (x0 - x1);
+        int dy = (y1 - y0);
+
         if (x1 >= x0 && y1 >= y0) { // positive slope and x1 >= x0
             int dx = x1 - x0;
             int dy = y1 - y0;
