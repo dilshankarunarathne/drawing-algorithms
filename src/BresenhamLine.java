@@ -19,18 +19,16 @@ public class BresenhamLine {
             System.out.println("(" + x + ", " + y + ")");
 
             while (x < x1) {
-                if (d <= 0) {
-                    d += incrE;
-                    x++;
-                } else {
-                    d += incrNE;
-                    x++;
+                if (d > 0) {
                     y++;
+                    d += incrNE;
+                } else {
+                    
                 }
 
                 System.out.println("(" + x + ", " + y + ")");
             }
         }
-        
+
     }
 }
