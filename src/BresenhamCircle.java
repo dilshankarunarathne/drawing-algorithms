@@ -5,6 +5,7 @@ public class BresenhamCircle {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter x0: ");
+        int x0 = scanner.nextInt();
     }
 
     public static void bresenhamCircle(int x0, int y0, int r) {
