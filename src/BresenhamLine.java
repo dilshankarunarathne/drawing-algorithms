@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class BresenhamLine {
     public static void main(String[] args) {
-//        bresenhamLine(1, 10, 12, 5);
+        Scanner scanner = new Scanner(System.in);
     }
 
     public static void bresenhamLine(int x0, int y0, int x1, int y1) {
