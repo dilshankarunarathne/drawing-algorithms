@@ -30,32 +30,7 @@ public class BresenhamLine {
 
                 System.out.println("(" + x + ", " + y + ")");
             }
-        } else {
-            int dx = x0 - x1;
-            int dy = y0 - y1;
-
-            int d = 2 * dy - dx;
-
-            int incrE = 2 * dy;
-            int incrNE = 2 * (dy - dx);
-
-            int x = x0;
-            int y = y0;
-
-            System.out.println("(" + x + ", " + y + ")");
-
-            while (x > x1) {
-                if (d <= 0) {
-                    d += incrE;
-                    x--;
-                } else {
-                    d += incrNE;
-                    x--;
-                    y++;
-                }
-
-                System.out.println("(" + x + ", " + y + ")");
-            }
         }
+        
     }
 }
