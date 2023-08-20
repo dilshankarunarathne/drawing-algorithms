@@ -4,7 +4,6 @@ public class BresenhamCircle {
     }
 
     public static void bresenhamCircle(int x0, int y0, int r) {
-        // Calculate the first point
         int x = 0;
         int y = r;
 
