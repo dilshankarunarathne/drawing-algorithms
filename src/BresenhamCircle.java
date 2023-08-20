@@ -9,7 +9,6 @@ public class BresenhamCircle {
 
         int d = 3 - (2 * r);
 
-        // Set the first point
         drawCircle(x0, y0, x, y);
 
         // Loop through the points
