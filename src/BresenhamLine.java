@@ -43,14 +43,6 @@ public class BresenhamLine {
                 System.out.println("(" + x + ", " + y + ")");
             }
         } else if (x1 < x0 && y1 >= y0) { // positive slope and x1 < x0
-            int dx = x0 - x1;
-            int dy = y1 - y0;
-
-            int d = 2 * dy - dx;
-
-            int incrE = 2 * dy;
-            int incrNE = 2 * (dy - dx);
-
             int y = y0;
 
             System.out.println("(" + x0 + ", " + y0 + ")");
