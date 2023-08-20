@@ -1,6 +1,6 @@
 public class BresenhamLine {
     public static void main(String[] args) {
-        bresenhamLine(2, 5, 12, 10);
+        bresenhamLine(1, 10, 12, 5);
     }
 
     public static void bresenhamLine(int x0, int y0, int x1, int y1) {
@@ -96,7 +96,6 @@ public class BresenhamLine {
 
                 System.out.println("(" + x + ", " + y + ")");
             }
-
         }
     }
 }
