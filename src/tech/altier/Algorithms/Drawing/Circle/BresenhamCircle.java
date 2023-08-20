@@ -49,8 +49,11 @@ public class BresenhamCircle {
             // Increment x
             x++;
 
-            // Calculate the next point
-            points[i++] = new Point(x + x0, y + y0);
+            // Check if the index is within the bounds of the array
+            if (i < points.length) {
+                // Calculate the next point
+                points[i++] = new Point(x + x0, y + y0);
+            }
         }
 
         // Return the array of points
