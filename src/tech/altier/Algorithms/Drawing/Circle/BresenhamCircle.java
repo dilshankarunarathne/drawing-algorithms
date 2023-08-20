@@ -23,7 +23,7 @@ public class BresenhamCircle {
         int y = r;
 
         // Create an array of points to store the points in the circle
-        Point[] points = new tech.altier.Algorithms.Drawing.lib.Point[4 * r];
+        Point[] points = new Point[4 * r];
 
         // Calculate the initial value of the decision parameter
         int d = 3 - (2 * r);
