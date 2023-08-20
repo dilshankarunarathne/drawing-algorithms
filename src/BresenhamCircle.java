@@ -12,7 +12,9 @@ public class BresenhamCircle {
         drawCircle(x0, y0, x, y);
 
         while (y >= x) {
+            // If the decision parameter is less than 0
             if (d < 0) {
+                // Calculate the next value of the decision parameter
                 d = d + (4 * x) + 6;
             } else {
                 // Calculate the next value of the decision parameter
