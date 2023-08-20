@@ -23,7 +23,7 @@ public class BresenhamLine {
                     y++;
                     d += incrNE;
                 } else {
-                    
+                    d += incrE;
                 }
 
                 System.out.println("(" + x + ", " + y + ")");
