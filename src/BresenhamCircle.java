@@ -20,11 +20,9 @@ public class BresenhamCircle {
                 // Calculate the next value of the decision parameter
                 d = d + (4 * (x - y)) + 10;
 
-                // Decrement y
                 y--;
             }
 
-            // Increment x
             x++;
 
             // Check if the index is within the bounds of the array
