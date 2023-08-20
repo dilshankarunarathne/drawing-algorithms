@@ -22,7 +22,6 @@ public class BresenhamCircle {
 
             x++;
 
-            // Check if the index is within the bounds of the array
             drawCircle(x0, y0, x, y);
         }
     }
