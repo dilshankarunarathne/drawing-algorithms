@@ -10,6 +10,8 @@ public class BresenhamCircle {
         int y0 = scanner.nextInt();
         System.out.print("Enter r: ");
         int r = scanner.nextInt();
+
+        bresenhamCircle(x0, y0, r);
     }
 
     public static void bresenhamCircle(int x0, int y0, int r) {
